@@ -59,17 +59,17 @@ img {
 }
 
 .gallery-item-info {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-bottom: 2em;
+  margin-top: 0.2em;
+  margin-left: 1.4em;
   max-height: 20px;
   padding-bottom: 0.2em;
+  padding-top: 0.2em;
 }
 
 .gallery-item-info li {
   display: inline-block;
-  font-size: 1rem;
-  font-weight: 400;
+  vertical-align: middle;
 }
 
 .gallery-image {
@@ -84,12 +84,5 @@ img {
 }
 
 ul {
-  display: block;
-  list-style-type: disc;
-  max-height: 50vh;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 15px;
+  padding-inline-start: 10px;
 }
